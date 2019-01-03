@@ -1,21 +1,21 @@
 {
-  "name": "walletshell",
-  "productName": "WalletShell",
-  "description": "TurtleCoin GUI Wallet",
-  "version": "v0.3.6",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "name": "tereaswallet",
+  "productName": "TereasWallet",
+  "description": "Tereas Wallet for Windows",
+  "version": "v1.0.0",
+  "homepage": "https://coin.tereas.net",
+  "repository": "https://github.com/tereasthailand/tereaswallet",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "debug": "electron . debug",
     "dev": "electron . dev",
-    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/turtle-service.exe",
-    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/turtle-service",
-    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/turtle-service"
+    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/tereas-service.exe",
+    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/tereas-service",
+    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/tereas-service"
   },
   "keywords": [],
-  "author": "Rixombea, Macroshock, TurtleCoin Developers",
+  "author": "Tereas",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
@@ -33,8 +33,8 @@
     "request-promise-native": "^1.0.5"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
+    "appId": "tereascoin.gui",
+    "copyright": "Copyright (c) 2019 Tereas Co., Ltd.",
     "directories": {
       "output": "dist",
       "buildResources": "build"
