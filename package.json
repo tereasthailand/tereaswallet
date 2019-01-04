@@ -71,7 +71,7 @@
     },
     "win": {
       "target": "nsis",
-      "publisherName": "TurtleCoin"
+      "publisherName": "Tereas"
     },
     "nsis": {
       "artifactName": "${productName}-v${version}-${os}-${arch}-setup.${ext}",
